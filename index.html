@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <title>Odin Project Login</title>
+  </head>
+  <body>
+    <main id="formContainer">
+      <picture>
+        <img
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt=""
+        />
+        <figcaption>Odin Project</figcaption>
+      </picture>
+      <nav>
+        <ul>
+          <li>
+            <a href="" id="singin">SIGN IN</a>
+          </li>
+          <li>
+            <a href="">LOG IN</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="#">
+        <input type="text" name="name" id="name" required placeholder="Name" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Email"
+        />
+        <input
+          type="text"
+          name="phoneNumber"
+          id="phone-Number"
+          minlength="9"
+          maxlength="9"
+          placeholder="Cellphone Number"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+          placeholder="Password"
+        />
+        <input
+          type="password"
+          name="password2"
+          id="password2"
+          required
+          placeholder="ConfirmPassword"
+        />
+        <button type="submit">Create Account</button>
+      </form>
+    </main>
+  </body>
+</html>
